@@ -1,6 +1,9 @@
 # asp-2023
 
-1. Create an environment named cling
+1. Install Miniconda
+https://kontext.tech/article/1064/install-miniconda-and-anaconda-on-wsl-2-or-linux
+
+2. Create an environment named cling
 ```
 conda create -n cling
 conda activate cling
@@ -11,12 +14,12 @@ conda activate cling
 conda install xeus-cling -c conda-forge
 ```
 
-5. Install Jupyter lab
+4. Install Jupyter lab
 ```
 conda install jupyterlab -c conda-forge
 ```
 
-4. Run jupyter lab
+5. Run jupyter lab
 ```
 jupyter lab
 ```
